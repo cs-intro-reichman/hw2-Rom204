@@ -8,7 +8,7 @@ public class CalcPi {
 		int divisor = 3;
 
 		if (terms == 1) {
-			approximatedPI = 4.0;
+			approximatedPI = 1.0;
 		} else {
 			approximatedPI = 1.0;
 			// after the initial 1
