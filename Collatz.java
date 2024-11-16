@@ -7,7 +7,7 @@ public class Collatz {
 		for (int i = 1; i <= n; i++) {
 			steps(i, print);
 		}
-		System.out.println("\nEvery one of the first " + n + " hailstone sequences reached 1.");
+		System.out.println("Every one of the first " + n + " hailstone sequences reached 1.");
 	}
 
 	public static int steps(int count, boolean print) {
